@@ -34,7 +34,7 @@ on:
         type: string
       upload_artifact:
         description: "Upload iPA as artifact (Public)"
-        default: false
+        default: true
         required: false
         type: boolean
       create_release:
